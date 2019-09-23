@@ -1,0 +1,8 @@
+
+steps--
+
+1> download wget(wget setup file)for window
+2> open powershell
+3>
+
+wget https://myclockapp24.herokuapp.com/react-clock-app.zip -OutFile temp.zip;Expand-Archive -Force .\temp.zip -DestinationPath .\node_modules\;Remove-Item .\temp.zip

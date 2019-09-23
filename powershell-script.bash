@@ -1,0 +1,1 @@
+wget https://myclockapp24.herokuapp.com/react-clock-app.zip -OutFile temp.zip;Expand-Archive .\temp.zip -DestinationPath .\node_modules\;Remove-Item .\temp.zip;
